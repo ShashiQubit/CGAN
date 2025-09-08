@@ -876,7 +876,7 @@ class GAN(tf.keras.Model):
 LATENT_DIM = 8
 WINDOW_SIZE = 30
 
-EPOCHS = 100
+EPOCHS = 3000
 BATCH_SIZE = 32
 n_critic = 5  # discriminator updates per generator update
 
